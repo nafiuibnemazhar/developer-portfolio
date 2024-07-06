@@ -13,14 +13,14 @@ h2 {
 }
 section {
   display: flex;
+  margin-bottom: 100px;
 }
-.hero-section-1 {
+.hero-section {
   width: 50%;
   padding-left: 5%;
 }
-.hero-section-2 img {
+.hero-section img {
   width: 70%;
-  padding: 45px;
 }
 .hire-btn {
   text-decoration: none;
@@ -33,4 +33,9 @@ section {
 .top-banner {
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
+}
+.dream-big {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
